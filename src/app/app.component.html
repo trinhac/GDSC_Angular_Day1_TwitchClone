@@ -3,33 +3,38 @@
     <h2 class="signup-title">Join Twitch today</h2>
   </div>
   <div class="signup-nav">
-
+    <!-- Navigation or additional content -->
   </div>
   <div class="signup-body">
     <form action="" class="form-group">
       <div class="form-control">
-        <input type="text" class="username-input">
-        <input type="text" class="password-input">
-        <input type="text" class="confirm-pwd-input">
+        <label for="username">Username:</label>
+        <input type="text" id="username" class="username-input">
+        <label for="password">Password:</label>
+        <input type="text" id="password" class="password-input">
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="text" id="confirm-password" class="confirm-pwd-input">
         <div class="dob">
-          <input type="text" class="month">
-          <input type="text" class="day">
-          <input type="text" class="year">
+          <label for="month">Month:</label>
+          <input type="text" id="month" class="month">
+          <label for="day">Day:</label>
+          <input type="text" id="day" class="day">
+          <label for="year">Year:</label>
+          <input type="text" id="year" class="year">
         </div>
         <div class="phonenumber-input">
-          <input type="text" class="phonenumber-region">
-          <input type="text" class="phonenumber-number">
+          <label for="phonenumber-region">Phone Number Region:</label>
+          <input type="text" id="phonenumber-region" class="phonenumber-region">
+          <label for="phonenumber-number">Phone Number:</label>
+          <input type="text" id="phonenumber-number" class="phonenumber-number">
         </div>
       </div>
       <div class="signup-submit">
         <a href="#" class="use-email">Use email instead</a>
-        <p class="twitch-policy-desc">Twitch may use your phone number to call or send text messages with information
-          regarding your account.</p>
-        <p class="twitch-policy-desc">By clicking Sign Up, you are agreeing to Twitch’s Terms of Service and are
-          acknowledging our Privacy Notice applies</p>
+        <p class="twitch-policy-desc">Twitch may use your phone number to call or send text messages with information regarding your account.</p>
+        <p class="twitch-policy-desc">By clicking Sign Up, you are agreeing to Twitch’s Terms of Service and are acknowledging our Privacy Notice applies</p>
         <button class="submit-button">Sign Up</button>
       </div>
-
     </form>
   </div>
 </div>
